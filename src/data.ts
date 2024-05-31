@@ -188,6 +188,8 @@ const data = new Map([
       {
         url: "https://nestjs.com/",
         github: "nestjs/nest",
+        logo: "https://camo.githubusercontent.com/2093e1eb4bc9b4f31f6b65facf62aa81bfb0630639ed2607cc1006f2656f1cf7/68747470733a2f2f6e6573746a732e636f6d2f696d672f6c6f676f2d736d616c6c2e737667",
+        logo_is_icon: true,
       },
     ],
   ],
@@ -394,6 +396,8 @@ const data = new Map([
       {
         url: "https://ant.design/",
         github: "ant-design/ant-design",
+        logo: "https://camo.githubusercontent.com/70ec62b59182d7ecbc34f6cfe6f043d6ca17b133c398871ef1cdab0fa4d1e424/68747470733a2f2f67772e616c697061796f626a656374732e636f6d2f7a6f732f726d73706f7274616c2f4b4470677667754d704766716148506a6963524b2e737667",
+        logo_is_icon: true,
       },
       {
         url: "https://ant-design-charts.antgroup.com/",
@@ -402,10 +406,14 @@ const data = new Map([
       {
         url: "https://swr.vercel.app/",
         github: "vercel/swr",
+        logo: "https://camo.githubusercontent.com/5955ce161a96f1ff2bb53539feb3670bead8e672698682aa2b15e255208495ac/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313537323238393631382f7377722f62616e6e65722e706e67",
+        // logo_is_icon: true,
       },
       {
         url: "https://ahooks.js.org/",
         github: "alibaba/hooks",
+        logo: "https://camo.githubusercontent.com/d9923fb822bb8a23d351bc91e55963fcec7deca81a2f2bc9a7fffc7a6b734d38/68747470733a2f2f61686f6f6b732e6a732e6f72672f6c6f676f2e737667",
+        // logo_is_icon: true,
       },
       {
         url: "",
@@ -414,6 +422,8 @@ const data = new Map([
       {
         url: "https://framer.com/motion",
         github: "framer/motion",
+        logo: "https://camo.githubusercontent.com/3bcd317876dc122d3055613c7f5450134050d0c5a8683807c6f2e8e2178737b0/68747470733a2f2f6672616d657275736572636f6e74656e742e636f6d2f696d616765732f34386861395a52396f5a51475136675a38595566456c50335430412e706e67",
+        logo_is_icon: true,
       },
       {
         url: "https://reactrouter.com/",
@@ -426,6 +436,8 @@ const data = new Map([
       {
         url: "https://nextjs.org/",
         github: "vercel/next.js",
+        logo: "https://camo.githubusercontent.com/39791c3e4c4387b8b913628a8f258768ea3a4a71fc815ced2219f81c22c71f6a/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6c696768745f6261636b67726f756e642e706e67",
+        logo_is_icon: true,
       },
       {
         url: "https://pro-components.antdigital.dev/",
@@ -442,10 +454,14 @@ const data = new Map([
       {
         url: "https://react-typescript-cheatsheet.netlify.app/",
         github: "typescript-cheatsheets/react",
+        logo: "https://user-images.githubusercontent.com/84442212/194379444-02e5ec69-5e6c-4100-bd7a-c31d628af29c.png",
+        logo_is_icon: true,
       },
       {
         url: "https://redux.js.org/",
         github: "reduxjs/redux",
+        logo: "https://avatars.githubusercontent.com/u/13142323?s=200&v=4",
+        logo_is_icon: true,
       },
       {
         url: "https://ui.shadcn.com/",
@@ -454,6 +470,7 @@ const data = new Map([
       {
         url: "https://styled-components.com/",
         github: "styled-components/styled-components",
+        logo: "https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png",
       },
       {
         url: "https://tanstack.com/query",
