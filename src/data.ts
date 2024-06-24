@@ -49,17 +49,14 @@ const data = new Map([
       {
         url: "https://esbuild.github.io/",
         github: "evanw/esbuild",
-        logo: "https://github.com/evanw/esbuild/raw/main/images/wordmark-light.svg",
       },
       {
         url: "https://rsbuild.dev/",
         github: "web-infra-dev/rsbuild",
-        logo: "https://github.com/web-infra-dev/rsbuild/assets/7237365/84abc13e-b620-468f-a90b-dbf28e7e9427",
       },
       {
         url: "https://rspack.dev/",
         github: "web-infra-dev/rspack",
-        logo: "https://camo.githubusercontent.com/c1eda5f5862f0c74fb5e06ac3e93040d4f4e99d87bbdde03e4d5f345c2643199/68747470733a2f2f6c66332d7374617469632e62797465646e73646f632e636f6d2f6f626a2f6564656e2d636e2f64686f7a6568377668706562766f672f72737061636b2d62616e6e65722d313631302e706e67",
       },
       {
         url: "http://vitejs.dev/",
@@ -80,7 +77,6 @@ const data = new Map([
       {
         url: "https://pnpm.io/",
         github: "pnpm/pnpm",
-        logo: "https://camo.githubusercontent.com/49b19604911bc6ee19d5e805bfcc525af7fdd3573f6449b1bd14454cc5aa48bc/68747470733a2f2f692e696d6775722e636f6d2f716c57316545472e706e67",
       },
       {
         url: "https://eslint.org/",
@@ -268,14 +264,10 @@ const data = new Map([
       {
         url: "https://module-federation.io/",
         github: "module-federation/core",
-        logo: "https://private-user-images.githubusercontent.com/27547179/288660691-11234712-40fc-4696-a7fd-16e0c631005a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTcxNDAwODIsIm5iZiI6MTcxNzEzOTc4MiwicGF0aCI6Ii8yNzU0NzE3OS8yODg2NjA2OTEtMTEyMzQ3MTItNDBmYy00Njk2LWE3ZmQtMTZlMGM2MzEwMDVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTMxVDA3MTYyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIzNDE0MTAxMTllZDgzMTIxNDhlNzJiOWQzMTBhYWJkZjhkNjJkNGRiM2QwNDRiYzZmZmVmMTcxZDMxYzk5NzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.GPZwIWVIVhGiaGHRdg2iNSdqk9PaTvNwnAHJhukbFlg",
-        logo_is_icon: true,
       },
       {
         url: "https://wujie-micro.github.io/doc/",
         github: "Tencent/wujie",
-        logo: "https://camo.githubusercontent.com/efa3a56225c3a5a0c38769e153cca305b7508656c5f397b498657ae69d0cd944/68747470733a2f2f7666696c65732e6774696d672e636e2f77756a695f64617368626f6172642f78792f746573745f77756a695f64616d792f70684653756855432e706e67",
-        logo_is_icon: true,
       },
       {
         url: "https://bun.sh/",
@@ -342,7 +334,6 @@ const data = new Map([
       {
         url: "https://nuxt.com/",
         github: "nuxt/nuxt",
-        logo: "https://github.com/nuxt/nuxt/raw/main/.github/assets/banner.svg",
       },
       {
         url: "https://pinia.vuejs.org/",
@@ -406,14 +397,10 @@ const data = new Map([
       {
         url: "https://swr.vercel.app/",
         github: "vercel/swr",
-        logo: "https://camo.githubusercontent.com/5955ce161a96f1ff2bb53539feb3670bead8e672698682aa2b15e255208495ac/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313537323238393631382f7377722f62616e6e65722e706e67",
-        // logo_is_icon: true,
       },
       {
         url: "https://ahooks.js.org/",
         github: "alibaba/hooks",
-        logo: "https://camo.githubusercontent.com/d9923fb822bb8a23d351bc91e55963fcec7deca81a2f2bc9a7fffc7a6b734d38/68747470733a2f2f61686f6f6b732e6a732e6f72672f6c6f676f2e737667",
-        // logo_is_icon: true,
       },
       {
         url: "",

@@ -16,7 +16,9 @@
       <ElTabPane label="React" name="8"></ElTabPane>
     </ElTabs>
 
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4">
+    <div
+      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4"
+    >
       <div
         class="border h-[180px] p-4 bg-white flex items-center justify-center cursor-pointer"
         @click="handleAdd"
@@ -27,16 +29,13 @@
       <div
         v-for="item in bookmarks"
         :key="item.github"
-        class="group border h-[180px] p-4 bg-white hover:border-blue-500 cursor-pointer relative flex justify-center"
+        class="group border h-[180px] p-4 bg-white hover:border-blue-500 cursor-pointer relative flex justify-center items-center"
         @click="linkTo(item.url, item.github)"
       >
+        <h2 class="text-xl absolute">{{ item.github }}</h2>
         <img
-          class="h-full object-contain"
-          :src="
-            !item.logo_is_icon && item.logo
-              ? item.logo
-              : getSocialifyImage(item.github, item.logo)
-          "
+          class="h-full object-contain absolute"
+          :src="getSocialifyImage(item.github, item.logo)"
           :alt="item.github"
         />
 
@@ -77,7 +76,8 @@ const linkToGithub = (repo: string) => {
 const activeName = useStorage("active-name", "0");
 
 const bookmarks = computed(() => {
-  return data.get(activeName.value);
+  const d = data.get(activeName.value) ?? [];
+  return d.map((item) => ({ ...item, loaded: false }));
 });
 
 const getSocialifyImage = (repo: string, logo?: string) => {
