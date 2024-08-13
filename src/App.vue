@@ -4,23 +4,23 @@
       <ElButton @click="checkRepeat">检查重复书签</ElButton>
     </div>
 
-    <ElTabs v-model="activeName" type="card" class="demo-tabs">
-      <ElTabPane label="常用库" name="0"></ElTabPane>
-      <ElTabPane label="工程化" name="1"></ElTabPane>
-      <ElTabPane label="很有用的库" name="2"></ElTabPane>
-      <ElTabPane label="收藏库、很少用" name="3"></ElTabPane>
-      <ElTabPane label="写后端" name="4"></ElTabPane>
-      <ElTabPane label="脚手架" name="5"></ElTabPane>
-      <ElTabPane label="其他" name="6"></ElTabPane>
-      <ElTabPane label="Vue" name="7"></ElTabPane>
-      <ElTabPane label="React" name="8"></ElTabPane>
+    <ElTabs v-model="activeName" type="card">
+      <ElTabPane label="常用库" name="0" />
+      <ElTabPane label="工程化" name="1" />
+      <ElTabPane label="很有用的库" name="2" />
+      <ElTabPane label="收藏库、很少用" name="3" />
+      <ElTabPane label="写后端" name="4" />
+      <ElTabPane label="脚手架" name="5" />
+      <ElTabPane label="其他" name="6" />
+      <ElTabPane label="Vue" name="7" />
+      <ElTabPane label="React" name="8" />
     </ElTabs>
 
     <div
-      class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-4"
+      class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 2xl:grid-cols-4 gap-4"
     >
       <div
-        class="border h-[180px] p-4 bg-white flex items-center justify-center cursor-pointer"
+        class="border h-[220px] p-4 bg-white flex items-center justify-center cursor-pointer"
         @click="handleAdd"
       >
         Add
@@ -29,7 +29,7 @@
       <div
         v-for="item in bookmarks"
         :key="item.github"
-        class="group border h-[180px] p-4 bg-white hover:border-blue-500 cursor-pointer relative flex justify-center items-center"
+        class="group border h-[220px] p-4 bg-white hover:border-blue-500 cursor-pointer relative flex justify-center items-center"
         @click="linkTo(item.url, item.github)"
       >
         <h2 class="text-xl absolute">{{ item.github }}</h2>
