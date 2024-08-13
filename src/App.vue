@@ -83,10 +83,10 @@ const bookmarks = computed(() => {
 const getSocialifyImage = (repo: string, logo?: string) => {
   const [owner, name] = repo.split("/");
   const url = new URL("", `https://socialify.git.ci/${repo}/image`);
-  url.searchParams.set("description", "1");
-  url.searchParams.set("language", "1");
+  // url.searchParams.set("description", "1");
+  // url.searchParams.set("language", "1");
   url.searchParams.set("name", "1");
-  url.searchParams.set("stargazers", "1");
+  // url.searchParams.set("stargazers", "1");
   url.searchParams.set("theme", "Auto");
 
   if (owner !== name) {
