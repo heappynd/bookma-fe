@@ -33,7 +33,7 @@
         @click="linkTo(item.url, item.github)"
       >
         <!-- <h2 class="text-xl absolute">{{ item.github }}</h2> -->
-        <img v-if="item.logo" :src="item.logo" class="h-4" alt="logo"/>
+        <!-- <img v-if="item.logo" :src="item.logo" class="h-4" alt="logo"/> -->
         <div class="text-2xl text-nowrap">
           <span>{{ item.github.split("/")[0] }}</span>
           <span>/</span>
