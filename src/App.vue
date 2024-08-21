@@ -29,15 +29,21 @@
       <div
         v-for="item in bookmarks"
         :key="item.github"
-        class="group border h-[220px] p-4 bg-white hover:border-blue-500 cursor-pointer relative flex justify-center items-center"
+        class="group border h-[220px] p-4 bg-white hover:border-blue-500 cursor-pointer relative flex flex-col gap-8 justify-center items-center"
         @click="linkTo(item.url, item.github)"
       >
-        <h2 class="text-xl absolute">{{ item.github }}</h2>
-        <img
+        <!-- <h2 class="text-xl absolute">{{ item.github }}</h2> -->
+        <img v-if="item.logo" :src="item.logo" class="h-4" alt="logo"/>
+        <div class="text-2xl text-nowrap">
+          <span>{{ item.github.split("/")[0] }}</span>
+          <span>/</span>
+          <span class="font-600">{{ item.github.split("/")[1] }}</span>
+        </div>
+        <!-- <img
           class="h-full object-contain absolute"
           :src="getSocialifyImage(item.github, item.logo)"
           :alt="item.github"
-        />
+        /> -->
 
         <div class="flex items-center gap-2 absolute bottom-2 right-2">
           <div
